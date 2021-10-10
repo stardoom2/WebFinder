@@ -7,12 +7,134 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    
-    <div class="header">
+    <div id="mySidepanel" class="sidepanel">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="https://prakharswarnkar.github.io/WebFinder/">GitHub</a>
+  
 
-  <p>WebFinder</p>
-    </div>
-    <center><strong><h4>Google search</h4></strong></center>
+</div>
+
+    <button class="openbtn" onclick="openNav()">&#9776; </button>
+    <style>
+      .sidepanel {
+  height: 250px; /* Specify a height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+}
+
+/* The sidepanel links */
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style the button that is used to open the sidepanel */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+      }.sidepanel {
+  height: 550px; /* Specify a height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+}
+
+/* The sidepanel links */
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style the button that is used to open the sidepanel */
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+    </style>
+    <script>
+      function openNav() {
+  document.getElementById("mySidepanel").style.width = "250px";
+}
+
+/* Set the width of the sidebar to 0 (hide it) */
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+}function openNav() {
+  document.getElementById("mySidepanel").style.width = "250px";
+}
+
+/* Set the width of the sidebar to 0 (hide it) */
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+}
+    </script>
+    <center><font face="Cursive" size="20px" color="FF7A59">WebFinder</font></center>
+    
     <script async src="https://cse.google.com/cse.js?cx=c4a9559bdb8d6bf65"></script>
     <div class="gcse-search"></div>
     
@@ -197,9 +319,9 @@
   <li><a href="http://whitehouse.gov/">Whitehouse gov</a></li>
   <li><a href="http://techradar.com/">Techradar</a></li>
 
-  <li><a href="#">Calvin</a></li>
-  <li><a href="#">Christina</a></li>
-    <li><a href="#">Cindy</a></li>
+  <li><a href="https://wikiofspaceman.miraheze.org/w/index.php?title=Main_Page&mobileaction=toggle_view_desktop">Wiki of SpaceMan</a></li>
+  <li><a href="https://spacemantimes.blogspot.com/?m=1">SpaceMan Times</a></li>
+    <li><a href="">Cindy</a></li>
 <script src="script.js"></script>
   </body>
       </html>
